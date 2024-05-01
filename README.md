@@ -20,10 +20,3 @@ A simple weather application built with React that fetches real-time weather dat
 3. Replace API key in `App.jsx`.
 4. Run the app with `npm start`.
 5. Enter city name to get weather.
-
-## License:
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
-## Acknowledgments:
-- Weather icons sourced from OpenWeatherMap.
-- Search icon sourced from Font Awesome.
