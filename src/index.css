@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --font-roboto: "Roboto Slab", serif;
+    --font-raleway: "Raleway", sans-serif;
+}
+
+.svg-hover {
+    transition: transform 0.3s ease;
+}
+
+.svg-hover:hover {
+    transform: scale(1.2);
+}
+
+.weather-icon img{
+    height: 180px;
+    width: 180px;
+}
